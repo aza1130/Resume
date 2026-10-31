@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder YT</title>
+  <desc id="desc">Abstract navy and cyan profile placeholder with the initials YT.</desc>
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="25%" r="85%"><stop offset="0" stop-color="#254a70"/><stop offset=".55" stop-color="#13243d"/><stop offset="1" stop-color="#091322"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65e5ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="14" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="218" fill="none" stroke="#8ab7e8" stroke-opacity=".12" stroke-width="1"/>
+  <circle cx="300" cy="300" r="178" fill="none" stroke="url(#ring)" stroke-opacity=".55" stroke-width="2" stroke-dasharray="5 12"/>
+  <circle cx="300" cy="300" r="139" fill="#0d1a2d" stroke="#65e5ff" stroke-opacity=".3" stroke-width="2"/>
+  <circle cx="300" cy="300" r="118" fill="#142a43"/>
+  <text x="300" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="112" font-weight="700" letter-spacing="-9" fill="#eaf7ff" filter="url(#glow)">YT</text>
+  <circle cx="300" cy="300" r="233" fill="none" stroke="#65e5ff" stroke-opacity=".25" stroke-width="2"/>
+  <circle cx="300" cy="66" r="6" fill="#65e5ff"/>
+  <circle cx="520" cy="377" r="5" fill="#a78bfa"/>
+  <circle cx="112" cy="432" r="4" fill="#65e5ff"/>
+  <text x="300" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" letter-spacing="5" fill="#90a8c8">YOUR PHOTO HERE</text>
+</svg>
